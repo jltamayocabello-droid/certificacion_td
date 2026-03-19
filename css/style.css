@@ -26,7 +26,7 @@ body {
 }
 .profile-card__header {
   padding: 2rem;
-  background: linear-gradient(to bottom, #2c3e50 40%, transparent 40%);
+  background: linear-gradient(to bottom, rgb(80, 3, 29) 40%, transparent 40%);
 }
 .profile-card__avatar {
   width: 100px;
@@ -38,16 +38,16 @@ body {
 .profile-card__name {
   margin-top: 1rem;
   font-size: 1.5rem;
-  color: #2c3e50;
+  color: rgb(80, 3, 29);
 }
 .profile-card__role {
-  color: #3498db;
+  color: #34dbc5;
   font-weight: bold;
   font-size: 0.9rem;
 }
 .profile-card__body {
   padding: 0 2rem 1rem;
-  color: #7f8c8d;
+  color: #404949;
 }
 .profile-card__footer {
   padding: 1.5rem;
@@ -57,18 +57,18 @@ body {
 }
 .profile-card__button {
   padding: 10px 20px;
-  border: 1px solid #3498db;
+  border: 1px solid #34dbc5;
   border-radius: 5px;
   cursor: pointer;
   background: none;
-  color: #3498db;
+  color: #34dbc5;
   transition: 0.3s;
 }
 .profile-card__button:hover {
   opacity: 0.8;
 }
 .profile-card__button--primary {
-  background-color: #3498db;
+  background-color: #34dbc5;
   color: #ffffff;
 }
 
