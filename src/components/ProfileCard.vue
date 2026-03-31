@@ -24,11 +24,11 @@ const updateName = () => {
     <article class="profile-card">
         <header class="profile-card__header">
             <img src="https://picsum.photos/150" alt="Foto de perfil" class="profile-card__avatar">
-            <h2 class="profile-card__name">{{ name }}</h2>
-            <p class="profile-card__role">{{ role }}</p>
+            <h2 class="profile-card__name">{{ userStore.name }}</h2>
+            <p class="profile-card__role">{{ userStore.role }}</p>
         </header>
         <section class="profile-card__body">
-            <p class="profile-card__bio">{{ bio }}</p>
+            <p class="profile-card__bio">{{ userStore.bio }}</p>
         </section>
         <footer class="profile-card__footer">
             <button class="profile-card__button profile-card__button--primary" @click="updateName">Actualizar Nombre</button>
