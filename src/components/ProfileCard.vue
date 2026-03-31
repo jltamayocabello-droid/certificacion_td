@@ -1,5 +1,12 @@
 <script setup>
 import { ref } from 'vue';
+import { useUserStore } from '../stores/user';
+
+const userStore = useUserStore();
+const handleUpdate = () => {
+    const newName = prompt("Nuevo nombre:")
+    userStore.updateName(newName)
+}
 
 const name = ref('Armando Camus');
 const role = ref('Senior Web Developer');
