@@ -21,4 +21,4 @@ function contador(){
 };
 
 let contador1 = contador();
-console.log(contador.verContador());
+console.log (contador.verContador());
