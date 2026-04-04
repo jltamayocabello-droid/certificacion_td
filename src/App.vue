@@ -1,7 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import TheNavbar from './components/TheNavbar.vue'
+import ProfileCard from './components/ProfileCard.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <TheNavbar />
+  <main>
+    <ProfileCard />
+  </main>
 </template>
