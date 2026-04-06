@@ -18,16 +18,21 @@ Pinia: Gestión de estado global y reactiva.
 Vite: Herramienta de construcción y servidor de desarrollo ultra rápido.
 
 📂 Estructura del Proyecto
-Plaintext
+
+```plaintext
 ├── index.html              # Archivo principal (Vite Entry Point)
 ├── src/
 │   ├── main.js             # Configuración de Vue y Pinia
 │   ├── App.vue             # Componente Raíz
-│   ├── components/         # Componentes reutilizables (ProfileCard, Navbar)
+│   ├── components/         # Componentes (ProfileCard.vue, TheNavBar.vue)
 │   ├── stores/             # Estados globales con Pinia (user.js)
-│   └── assets/             # Estilos SCSS y recursos estáticos
+│   └── style.css           # Estilos base/compilados
+├── SCSS/
+│   └── main.scss           # Código fuente SASS (Variables, Mixins, BEM)
 ├── repaso_contenido/       # 📚 Ejercicios prácticos de cada lección técnica
+├── vite.config.js          # Configuración de Vite/Vue 3
 └── package.json            # Dependencias y scripts del proyecto
+```
 📝 Funcionalidades Clave
 Componentización: Interfaz dividida en componentes desacoplados y reutilizables.
 
