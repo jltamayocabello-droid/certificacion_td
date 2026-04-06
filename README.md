@@ -1,4 +1,4 @@
-# Vue 3 + Vite: Proyecto de Certificación
+# Estudio y Prácticas para Certificación Front-End de Talento Digital para Chile
 
 🚀 **Front-End Trainee**
 
