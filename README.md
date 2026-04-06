@@ -2,7 +2,9 @@
 
 🚀 **Front-End Trainee**
 
-Este proyecto forma parte de la ruta de certificación de **Talento Digital para Chile**. Consiste en una aplicación de perfil de usuario interactiva que demuestra el dominio desde las bases de maquetación semántica hasta la gestión de estado global en frameworks modernos.
+Este proyecto forma parte de la ruta de certificación de **Talento Digital para Chile**. Se compone de dos partes fundamentales:
+1. **Aplicación de Perfil de Usuario**: Una interfaz interactiva que demuestra el dominio desde las bases de maquetación semántica hasta la gestión de estado global en frameworks modernos.
+2. **Material de Repaso**: Un conjunto de ejercicios prácticos detallados en el directorio `/repaso_contenido` que cubren los fundamentos técnicos del entrenamiento.
 
 ---
 
