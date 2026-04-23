@@ -1,3 +1,6 @@
+
+temperaturas = [20, 25, 22, 18, 30]
+
 function estadisticasTemperaturas(temperaturas) {
   // Validación: array vacío
   if (!Array.isArray(temperaturas) || temperaturas.length === 0) {
