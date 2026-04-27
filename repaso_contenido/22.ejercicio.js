@@ -25,3 +25,5 @@ function estadisticasTemperaturas(temperaturas) {
     minimo
   };
 }
+
+console.log(estadisticasTemperaturas(temperaturas));
